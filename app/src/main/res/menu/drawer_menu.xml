@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single"
+    android:id="@+id/features_menu">
+<item
+    android:id="@+id/zaees"
+    android:icon="@drawable/mi_zaees"
+    android:title="Zaees"/>
+    <item
+        android:id="@+id/currency_exchange"
+        android:icon="@drawable/mi_currency_exchange"
+        android:title="Currency Exchange Rate"/>
+    <item
+        android:id="@+id/zaee_book"
+        android:icon="@drawable/mi_zaee_book"
+        android:title="Zaee Book"/>
+    <item
+        android:id="@+id/zaee_calculator"
+        android:icon="@drawable/mi_zaee_calculator"
+        android:title="Zaee Calculator"/>
+
+</group>
+<group android:checkableBehavior="single"
+    android:id="@+id/app_menu">
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/mi_info"
+        android:title="About"/>
+    <item
+        android:id="@+id/app_settings"
+        android:icon="@drawable/mi_setting"
+        android:title="Settings"/>
+</group>
+
+</menu>
