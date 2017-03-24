@@ -1,4 +1,4 @@
-package com.codesorcery.zaeev20;
+package com.codesorcery.zaeev20.Activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
+import com.codesorcery.zaeev20.R;
 import com.squareup.picasso.Picasso;
 
 public class ZaeeDetailsActivity extends AppCompatActivity {

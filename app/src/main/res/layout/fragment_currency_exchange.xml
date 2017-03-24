@@ -3,9 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.codesorcery.zaeev20.CurrencyExchangeFragment">
+    tools:context="com.codesorcery.zaeev20.Fragments.CurrencyExchangeFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
 
     <ImageView
         android:id="@+id/bankimg"
@@ -19,46 +20,547 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center_horizontal"
-                android:text="Currency Exchange"
-                android:textSize="20dp" />
+                android:orientation="vertical">
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:background="@android:color/holo_red_light" />
-
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:stretchColumns="2">
-
-                <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_column="1"
-                        android:padding="3dip"
-                        android:text="Country Code" />
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:text="Currency Exchange"
+                        android:textSize="10dp" />
+
 
                     <TextView
+                        android:id="@+id/cx_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:gravity="right"
-                        android:padding="3dip"
-                        android:text="Rate" />
-                </TableRow>
-            </TableLayout>
-        </LinearLayout>
+                        android:textSize="10dp" />
 
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/holo_red_light" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:stretchColumns="2">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:padding="3dip"
+                            android:text="Country Code" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="Rate" />
+                    </TableRow>
+
+
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
     </android.support.v7.widget.CardView>
 
 

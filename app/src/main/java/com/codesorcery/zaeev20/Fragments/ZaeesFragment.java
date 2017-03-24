@@ -1,4 +1,4 @@
-package com.codesorcery.zaeev20;
+package com.codesorcery.zaeev20.Fragments;
 
 
 import android.content.Intent;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import com.codesorcery.zaeev20.Activities.ZaeeDetailsActivity;
+import com.codesorcery.zaeev20.R;
 
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;

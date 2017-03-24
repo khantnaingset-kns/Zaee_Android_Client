@@ -1,4 +1,4 @@
-package com.codesorcery.zaeev20;
+package com.codesorcery.zaeev20.Fragments;
 
 
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.codesorcery.zaeev20.R;
 
 
 /**
