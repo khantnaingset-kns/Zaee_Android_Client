@@ -21,12 +21,18 @@ import com.codesorcery.zaeev20.Fragments.ZaeesFragment;
 import com.codesorcery.zaeev20.R;
 import com.github.florent37.awesomebar.ActionItem;
 import com.github.florent37.awesomebar.AwesomeBar;
+import com.codesorcery.zaeev20.Models.*;
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
 
+    @Bind(R.id.drawer_layout)
     DrawerLayout mDrawerLayout;
+    @Bind(R.id.nv_view)
     NavigationView mNavigationView;
+    @Bind(R.id.bar)
     AwesomeBar mToolbar;
     ActionBarDrawerToggle mDrawerToggle;
 
@@ -42,18 +48,19 @@ public class MainActivity extends AppCompatActivity {
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         // Pass any configuration change to the drawer toggles
-      //  mDrawerToggle.onConfigurationChanged(newConfig);
+        //  mDrawerToggle.onConfigurationChanged(newConfig);
+
+
+
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mToolbar = (AwesomeBar) findViewById(R.id.bar);
-        //setSupportActionBar(mToolbar);
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mNavigationView = (NavigationView) findViewById(R.id.nv_view);
+        ButterKnife.bind(this);
         mNavigationView.setItemIconTintList(null);
-       // mDrawerToggle = setupDrawerToggle();
+        // mDrawerToggle = setupDrawerToggle();
         setupDrawerContent(mNavigationView);
         mDrawerLayout.addDrawerListener(mDrawerToggle);
 
@@ -62,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         mToolbar.setActionItemClickListener(new AwesomeBar.ActionItemClickListener() {
             @Override
             public void onActionItemClicked(int position, ActionItem actionItem) {
-                Toast.makeText(getBaseContext(), actionItem.getText()+" clicked", Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), actionItem.getText() + " clicked", Toast.LENGTH_LONG).show();
             }
         });
         mToolbar.setOnMenuClickedListener(new View.OnClickListener() {

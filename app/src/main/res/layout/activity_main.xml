@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:id="@+id/drawer_layout"
-    tools:context="com.codesorcery.zaeev20.MainActivity">
+    tools:context="com.codesorcery.zaeev20.Activities.MainActivity">
 
 
     <include layout="@layout/content_main" />
