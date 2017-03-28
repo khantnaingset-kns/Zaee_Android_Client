@@ -1,8 +1,10 @@
 package com.codesorcery.zaeev20.Models;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+
 
 /**
  * Created by Khant Naing Set on 3/23/2017.
@@ -10,10 +12,18 @@ import lombok.Setter;
 @Data
 public class CurencyExchangeRates {
 
+    @SerializedName("info")
+    @Expose
     private String info;
+    @SerializedName("description")
+    @Expose
     private String description;
+    @SerializedName("timestamp")
+    @Expose
     private String timestamp;
-    private Rates rates[];
+    @SerializedName("rates")
+    @Expose
+    private Rates rates;
 
 
 }
