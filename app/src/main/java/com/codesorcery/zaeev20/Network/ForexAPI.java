@@ -22,6 +22,6 @@ import retrofit2.http.Path;
 public interface ForexAPI {
 
     @GET("/api/{value}")
-    Call<CurencyExchangeRates> getResponseBody(@Path("value") String value);
+    Call<ResponseBody> getResponseBody(@Path("value") String value);
 
 }

@@ -26,4 +26,6 @@ public class CurencyExchangeRates {
     private Rates rates;
 
 
+
+
 }
