@@ -11,6 +11,7 @@ import com.codesorcery.zaeev20.R;
 import com.squareup.picasso.Picasso;
 
 import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class ZaeeDetailsActivity extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class ZaeeDetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ButterKnife.bind(this);
         setContentView(R.layout.activity_zaee_details);
         String value = getIntent().getStringExtra("Type");
 
