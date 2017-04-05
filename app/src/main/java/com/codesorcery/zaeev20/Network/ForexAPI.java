@@ -1,6 +1,6 @@
 package com.codesorcery.zaeev20.Network;
 
-import com.codesorcery.zaeev20.Models.CurencyExchangeRates;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

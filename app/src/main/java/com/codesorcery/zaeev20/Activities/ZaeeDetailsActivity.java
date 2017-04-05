@@ -20,11 +20,12 @@ public class ZaeeDetailsActivity extends AppCompatActivity {
     @Bind(R.id.toolbar)
     Toolbar mToolbar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ButterKnife.bind(this);
         setContentView(R.layout.activity_zaee_details);
+        ButterKnife.bind(this);
         String value = getIntent().getStringExtra("Type");
 
         setSupportActionBar(mToolbar);

@@ -21,7 +21,7 @@ import com.codesorcery.zaeev20.Fragments.ZaeesFragment;
 import com.codesorcery.zaeev20.R;
 import com.github.florent37.awesomebar.ActionItem;
 import com.github.florent37.awesomebar.AwesomeBar;
-import com.codesorcery.zaeev20.Models.*;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
