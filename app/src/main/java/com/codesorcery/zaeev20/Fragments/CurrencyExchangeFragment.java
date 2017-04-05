@@ -88,7 +88,7 @@ public class CurrencyExchangeFragment extends Fragment implements Callback<Respo
             @Override
             public void getTimeStamp(int timestamp) {
                 Date date = new Date(timestamp);
-                txt_timestamp.setText(date.toString());
+                txt_timestamp.setText( date.toString());
             }
 
             @Override
